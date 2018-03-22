@@ -1,10 +1,10 @@
-class Artist
+class Author
   attr_accessor :name
-  @@song_count = 0
+  @@post_count = 0
 
   def initialize(name = nil)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   def songs
